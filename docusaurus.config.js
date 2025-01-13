@@ -57,6 +57,7 @@ const config = {
                 src: 'img/logo.png',
             },
             items: [
+                { to: '/docs-aas/Introduction', label: 'Android AppStudio Docs', position: 'left' },
                 { to: '/docs-ace/Introduction', label: 'Android Code Editor Docs', position: 'left' },
                 {
                     label: 'GitHub',
@@ -71,6 +72,7 @@ const config = {
                 {
                     title: 'Docs',
                     items: [
+                        { label: 'Android AppStudio Docs', to: '/docs-aas/Introduction' },
                         { label: 'Android Code Editor Docs', to: '/docs-ace/Introduction' },
                     ],
                 },
