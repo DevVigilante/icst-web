@@ -1,0 +1,21 @@
+{
+  "name": "Docusaurus Development Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ],
+  "postCreateCommand": "npm install",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Docusaurus Dev Server",
+      "onAutoForward": "notify"
+    }
+  }
+}
