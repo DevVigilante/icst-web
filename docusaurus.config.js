@@ -54,7 +54,7 @@ const config = {
             title: 'Innovative Creations of Software Technology',
             logo: {
                 alt: 'Logo',
-                src: 'img/logo.png',
+                src: 'img/icst.jpeg',
             },
             items: [
                 { to: '/docs-aas/Introduction', label: 'Android AppStudio Docs', position: 'left' },
