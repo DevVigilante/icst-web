@@ -1,5 +1,5 @@
 ---
-title: TS Code Editor
-description: You can download latest releases of TS Code editor from here.
+title: ICST
+description: Download latest releases frkm here.
 ---
 ## No releases yet
