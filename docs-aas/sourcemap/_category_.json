@@ -1,6 +1,6 @@
 {
   "label": "Source Map",
-  "position": 2,
+  "position": 3,
   "link": {
     "type": "generated-index",
     "description": "Source Map of Android AppStudio modules and classes"
