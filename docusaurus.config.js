@@ -7,7 +7,7 @@ const config = {
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/logo.png',
+    favicon: 'img/icst.jpeg',
     organizationName: 'Innovative Creations of Software Technology',
     projectName: 'ICST',
     i18n: {
