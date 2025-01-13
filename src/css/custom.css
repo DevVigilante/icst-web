@@ -16,6 +16,9 @@
 	--ifm-color-primary-lightest: #90CAF9;
 	--ifm-code-font-size: 95%;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+	--white-image-filter: invert(100%);
+	--text-color: #1C1E21;
+	--shadow: ##0000007d;
 }
 
 
@@ -29,4 +32,11 @@
 	--ifm-color-primary-lighter: #64B5F6;
 	--ifm-color-primary-lightest: #90CAF9;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+	--white-image-filter: invert(0%);
+	--text-color: #E3E3E3;
+	--shadow: ##ffffff7d;
+}
+
+.whiteImage {
+    filter: var(--white-image-filter);
 }

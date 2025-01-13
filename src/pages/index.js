@@ -30,7 +30,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`TS Code Editor`}
+      title={`Innovative Creations of software technology`}
       description="Download Now">
       <HomepageHeader />
       <main>
