@@ -3,21 +3,83 @@
  * and scoped locally.
  */
 
+/* Hero Banner */
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
+  background: linear-gradient(135deg, #4b79a1, #283e51); /* Modern gradient background */
+  color: #ffffff; /* Text color contrast */
   position: relative;
   overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroBanner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2); /* Subtle overlay for better contrast */
+  z-index: 0;
 }
 
+.hero__title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1; /* Ensures text is above overlay */
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* Buttons Container */
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* Call-to-Action Button */
+.ctaButton {
+  background: #ff5722; /* Vibrant orange button */
+  color: #ffffff;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ctaButton:hover {
+  background: #e64a19; /* Slightly darker orange for hover */
+  transform: translateY(-3px); /* Subtle hover effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem 1rem;
+  }
+
+  .hero__title {
+    font-size: 2.5rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.25rem;
+  }
 }
