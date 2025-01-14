@@ -7,7 +7,7 @@
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
-  background: linear-gradient(135deg, #4b79a1, #283e51); /* Modern gradient background */
+  background: linear-gradient(135deg, #5bb3ff, #4b628c); /* Modern gradient background */
   color: #ffffff; /* Text color contrast */
   position: relative;
   overflow: hidden;
@@ -51,7 +51,7 @@
 
 /* Call-to-Action Button */
 .ctaButton {
-  background: #ff5722; /* Vibrant orange button */
+  background: #007bff; /* Vibrant orange button */
   color: #ffffff;
   border: none;
   padding: 0.8rem 2rem;
@@ -60,11 +60,11 @@
   text-transform: uppercase;
   border-radius: 50px;
   transition: all 0.3s ease;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .ctaButton:hover {
-  background: #e64a19; /* Slightly darker orange for hover */
+  background: #004595; /* Slightly darker orange for hover */
   transform: translateY(-3px); /* Subtle hover effect */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
