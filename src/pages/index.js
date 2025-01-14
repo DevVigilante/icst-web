@@ -8,34 +8,39 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/download">
-            Downloading
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
+    const { siteConfig } = useDocusaurusContext();
+    return (
+        <header className={clsx('hero hero--primary', styles.heroBanner)}>
+            <div className="container">
+                <h1 className={clsx('hero__title', styles.heroTitle)}>
+                    {siteConfig.title}
+                </h1>
+                <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
+                    {siteConfig.tagline}
+                </p>
+                <div className={styles.buttons}>
+                    <Link
+                        className={clsx('button button--secondary button--lg', styles.ctaButton)}
+                        to="/download"
+                    >
+                        Download
+                    </Link>
+                </div>
+            </div>
+        </header>
+    );
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title={`Innovative Creations of software technology`}
-      description="Download Now">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
-  );
+    const { siteConfig } = useDocusaurusContext();
+    return (
+        <Layout
+            title={`${siteConfig.title} | Innovative Software Creations`}
+            description="Discover cutting-edge software and download now.">
+            <HomepageHeader />
+            <main>
+                <HomepageFeatures />
+            </main>
+        </Layout>
+    );
 }
