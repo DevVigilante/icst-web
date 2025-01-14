@@ -25,11 +25,13 @@ const AppList = [
 function AppCard({ Image, title, description, url }) {
     return (
         <div className={styles.card}>
-            <img className={styles.logo} src={Image} alt={`${title} Logo`} />
-            <div className={styles.content}>
-                <h3 className={styles.title}>{title}</h3>
-                <p className={styles.description}>{description}</p>
-                <a href={url} target="_blank" rel="noopener noreferrer">
+            <div className={styles.logoContainer}>
+                <img className={styles.logoImage} src={Image} alt={`${title} logo`} />
+            </div>
+            <div className={styles.cardContent}>
+                <h3 className={styles.cardTitle}>{title}</h3>
+                <p className={styles.cardDescription}>{description}</p>
+                <a href={url} target="_blank" rel="noopener noreferrer" className={styles.buttonLink}>
                     <button className={styles.buttonPrimary}>View on GitHub</button>
                 </a>
             </div>
