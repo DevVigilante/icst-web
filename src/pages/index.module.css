@@ -11,6 +11,7 @@
   color: #ffffff; /* Text color contrast */
   position: relative;
   overflow: hidden;
+
 }
 
 .heroBanner::after {
