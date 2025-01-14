@@ -52,7 +52,7 @@
 
 /* Call-to-Action Button */
 .ctaButton {
-  background: #007bff; /* Vibrant orange button */
+  background: #007bff;
   color: #ffffff;
   border: none;
   padding: 0.8rem 2rem;
@@ -65,8 +65,11 @@
 }
 
 .ctaButton:hover {
-  background: #004595; /* Slightly darker orange for hover */
+  background: #ffffff; /* Slightly darker orange for hover */
   transform: translateY(-3px); /* Subtle hover effect */
+  color: #007bff;
+  border-color: #007bff;
+  border-width: 3px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
