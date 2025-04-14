@@ -55,28 +55,6 @@
   margin-bottom: 1rem;
 }
 
-/* Button Styling */
-.buttonPrimary {
-  background: #007bff;
-  color: #ffffff;
-  border: none;
-  padding: 0.8rem 1.5rem;
-  font-size: 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.buttonPrimary:hover {
-  background: #0056b3;
-  transform: scale(1.05);
-}
-
-/* Button Link */
-.buttonLink {
-  text-decoration: none;
-}
-
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .cardContainer {
