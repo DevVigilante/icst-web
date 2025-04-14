@@ -23,7 +23,7 @@
 
 /* Logo Container */
 .logoContainer {
-  background: var(--md-sys-color-primary-container);
+  background: var(--md-sys-color-on-surface-variant);
   display: flex;
   justify-content: center;
   align-items: center;
