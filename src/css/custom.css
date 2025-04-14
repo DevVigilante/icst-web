@@ -22,6 +22,10 @@
   --shadow: var(--md-sys-color-shadow);
 }
 
+.footer {
+  --ifm-footer-background-color: var(--md-sys-color-on-surface-variant);
+}
+
 .whiteImage {
     filter: var(--white-image-filter);
 }
