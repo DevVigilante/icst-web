@@ -19,8 +19,8 @@ function HomepageHeader() {
                     {siteConfig.tagline}
                 </p>
                 <div className={styles.buttons}>
-                    <Link className={clsx('button button--secondary button--lg', styles.ctaButton)} to="/download">
-                        Download
+                    <Link className={clsx('button button--lg', styles.ctaButton)} to="https://github.com/Innovative-CST">
+                        View GitHub
                     </Link>
                 </div>
             </div>

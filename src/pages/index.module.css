@@ -52,8 +52,7 @@
 
 /* Call-to-Action Button */
 .ctaButton {
-  background: #007bff;
-  color: #e7e7e7;
+  background: var(--md-sys-color-primary);
   border: none;
   padding: 0.8rem 2rem;
   font-size: 1.25rem;
@@ -66,11 +65,10 @@
 }
 
 .ctaButton:hover {
-  background: #ffffff; /* Slightly darker orange for hover */
-  transform: translateY(-3px); /* Subtle hover effect */
-  color: #007bff;
-  border-color: #007bff;
-  border-width: 3px;
+  background: var(--md-sys-color-surface);
+  transform: translateY(-3px);
+  color: var(--md-sys-color-primary);
+  border: none;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
