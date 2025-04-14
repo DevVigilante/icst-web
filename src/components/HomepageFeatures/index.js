@@ -1,4 +1,5 @@
 import React from 'react';
+import clsx from 'clsx';
 import styles from './styles.module.css';
 import '@material/web/button/filled-button.js';
 
@@ -42,7 +43,7 @@ function AppCard({ Image, title, description, url }) {
 
 export default function HomepageFeatures() {
     return (
-        <div className={styles.cardContainer}>
+        <div className={clsx(styles.cardContainer, styles.light)}>
             {AppList.map((app, idx) => (
                 <AppCard key={idx} {...app} />
             ))}

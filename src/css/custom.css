@@ -6,6 +6,10 @@
 
 
 /* You can override the default Infima variables here. */
+@import './light-hc.css';
+@import './light-mc.css';
+@import './light.css';
+
 :root {
 	--ifm-color-primary: #448AFF;
 	--ifm-color-primary-dark: #2979FF;
