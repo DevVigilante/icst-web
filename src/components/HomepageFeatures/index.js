@@ -3,9 +3,9 @@ import styles from './styles.module.css';
 
 const AppList = [
     {
-        title: 'Android AppStudio',
-        Image: "https://raw.githubusercontent.com/Innovative-cst/AndroidAppStudio/main/app/src/main/res/drawable-xxxhdpi/logo.jpg",
-        description: "Android AppStudio is an Android app that can generate code for Android apps using a simple drag-and-drop interface.",
+        title: 'Block IDLE',
+        Image: "https://raw.githubusercontent.com/Innovative-cst/BlockIDLE/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        description: "Block IDLE is an Android app that is aimed for building android apps using a simple drag-and-drop interface.",
         url: "https://github.com/Innovative-CST/AndroidAppStudio",
     },
     {
