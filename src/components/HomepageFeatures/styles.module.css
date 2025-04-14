@@ -4,7 +4,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   padding: 2rem;
-  background-color: #f9f9f9; /* Light background for contrast */
+  background-color: var(--md-sys-color-surface); /* Light background for contrast */
 }
 
 /* Card Styling */
