@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css';
+import '@material/web/button/filled-button.js';
 
 const AppList = [
     {
@@ -32,7 +33,7 @@ function AppCard({ Image, title, description, url }) {
                 <h3 className={styles.cardTitle}>{title}</h3>
                 <p className={styles.cardDescription}>{description}</p>
                 <a href={url} target="_blank" rel="noopener noreferrer" className={styles.buttonLink}>
-                    <button className={styles.buttonPrimary}>View on GitHub</button>
+                    <md-filled-button>View on GitHub</md-filled-button>
                 </a>
             </div>
         </div>
