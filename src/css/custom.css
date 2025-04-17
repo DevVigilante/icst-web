@@ -1,6 +1,5 @@
-@import './light-hc.css';
-@import './light-mc.css';
 @import './light.css';
+@import './dark.css';
 
 :root {
   --ifm-color-primary: var(--md-sys-color-primary);

@@ -1,4 +1,4 @@
-.dark {
+[data-theme='dark'] {
   --md-sys-color-primary: rgb(178 209 138);
   --md-sys-color-surface-tint: rgb(178 209 138);
   --md-sys-color-on-primary: rgb(31 55 1);
