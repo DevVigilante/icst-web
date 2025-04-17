@@ -19,6 +19,7 @@
 
 [data-theme='dark'] {
   --shadow: var(--md-sys-color-shadow);
+  --white-image-filter: invert(100%);
 }
 
 .navbar {
