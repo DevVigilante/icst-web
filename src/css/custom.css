@@ -27,7 +27,8 @@
 }
 
 .footer {
-  --ifm-footer-background-color: var(--md-sys-color-on-surface-variant);
+  --ifm-footer-background-color: var(--md-sys-color-surface-variant);
+  color: var(--md-sys-color-on-surface-variant);
 }
 
 .whiteImage {
