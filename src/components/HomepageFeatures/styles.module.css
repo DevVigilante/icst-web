@@ -47,12 +47,12 @@
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: #333333;
+  color: var(--md-sys-color-on-surface-variant);
 }
 
 .cardDescription {
   font-size: 1rem;
-  color: #555555;
+  color: var(--md-sys-color-on-surface-variant);
   margin-bottom: 1rem;
 }
 
